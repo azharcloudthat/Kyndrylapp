@@ -1,53 +1,53 @@
 :root {
     color-scheme: light;
-    --page-top: #dceff2;
-    --page-bottom: #f6f1e8;
-    --surface: rgba(255, 255, 255, 0.84);
+    --page-top: #f4f1ff;
+    --page-bottom: #ffffff;
+    --surface: rgba(255, 255, 255, 0.9);
     --surface-strong: #ffffff;
-    --ink: #173247;
-    --muted: #617482;
-    --line: rgba(23, 50, 71, 0.12);
-    --accent: #087f8c;
-    --accent-strong: #05616b;
-    --accent-soft: #d8f0ed;
-    --warm: #f29b5d;
-    --shadow: 0 24px 70px rgba(26, 64, 78, 0.14);
+    --ink: #201547;
+    --muted: #625b78;
+    --line: rgba(32, 21, 71, 0.13);
+    --accent: #8667ff;
+    --accent-strong: #5425d8;
+    --accent-soft: #eee9ff;
+    --warm: #ff8a65;
+    --shadow: 0 24px 70px rgba(55, 30, 117, 0.14);
     --radius-large: 28px;
     --radius-medium: 18px;
     --radius-small: 12px;
-    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body[data-weather="clear"] {
-    --page-top: #bfe7ef;
-    --page-bottom: #fff4d6;
-    --accent: #e27838;
-    --accent-strong: #b95423;
-    --accent-soft: #fff0ce;
+    --page-top: #eee8ff;
+    --page-bottom: #fff7f2;
+    --accent: #ff8a65;
+    --accent-strong: #c95437;
+    --accent-soft: #fff0eb;
 }
 
 body[data-weather="cloudy"] {
-    --page-top: #d5e0e6;
-    --page-bottom: #edf1ef;
-    --accent: #47798b;
-    --accent-strong: #315d6d;
-    --accent-soft: #e0ebef;
+    --page-top: #e7e3f3;
+    --page-bottom: #f7f6fb;
+    --accent: #7665b5;
+    --accent-strong: #51418d;
+    --accent-soft: #ebe8f7;
 }
 
 body[data-weather="rain"] {
-    --page-top: #b9d1dc;
-    --page-bottom: #dce5e1;
-    --accent: #176f89;
-    --accent-strong: #0e5268;
-    --accent-soft: #d7ebf1;
+    --page-top: #dcd8fa;
+    --page-bottom: #eaf5ff;
+    --accent: #4d73d8;
+    --accent-strong: #3152a7;
+    --accent-soft: #e2e9ff;
 }
 
 body[data-weather="snow"] {
-    --page-top: #dcebf5;
-    --page-bottom: #f3f6f2;
-    --accent: #4d789b;
-    --accent-strong: #365b7a;
-    --accent-soft: #e4f0f7;
+    --page-top: #e9f4ff;
+    --page-bottom: #f8fbff;
+    --accent: #5688c7;
+    --accent-strong: #35649d;
+    --accent-soft: #e5f1ff;
 }
 
 * {
@@ -100,6 +100,33 @@ button {
     margin-bottom: 28px;
 }
 
+.brand-lockup {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 32px;
+    color: var(--accent-strong);
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px 8px 8px 2px;
+    color: #ffffff;
+    background: var(--accent-strong);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.brand-name {
+    letter-spacing: -0.06em;
+}
+
 .eyebrow,
 .section-kicker {
     margin: 0 0 8px;
@@ -124,9 +151,9 @@ h3 {
 }
 
 h1 {
-    max-width: 10ch;
+    max-width: 11ch;
     margin-bottom: 10px;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: clamp(2.8rem, 7vw, 5.6rem);
     line-height: 0.94;
 }
@@ -266,7 +293,7 @@ h3 {
 }
 
 .location-heading h2 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: clamp(2rem, 5vw, 3.6rem);
 }
 
@@ -324,7 +351,7 @@ h3 {
 
 .temperature-display {
     margin-bottom: 4px;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: clamp(3.5rem, 8vw, 6rem);
     line-height: 0.95;
 }
@@ -440,7 +467,7 @@ h3 {
 
 .empty-state h2 {
     margin-bottom: 8px;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .empty-state p {

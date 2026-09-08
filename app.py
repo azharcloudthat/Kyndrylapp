@@ -12,7 +12,7 @@ REQUEST_TIMEOUT_SECONDS = 10
 
 @app.route("/")
 def index():
-    """Render the dashboard UI."""
+    """Render the Kyndryl Weather dashboard UI."""
     return render_template("index.html")
 
 
