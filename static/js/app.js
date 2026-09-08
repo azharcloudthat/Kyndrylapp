@@ -169,7 +169,7 @@ function setLoading(isLoading) {
     }
 
     if (status) {
-        status.textContent = isLoading ? "Loading weather..." : "";
+        status.textContent = isLoading ? "Preparing your Kyndryl weather briefing..." : "";
     }
 }
 

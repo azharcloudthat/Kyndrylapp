@@ -1,11 +1,11 @@
-# KyndrylApp - Weather Dashboard
+# Kyndryl Weather
 
-A responsive weather dashboard application built with Python (Flask) and vanilla HTML/CSS/JavaScript, powered by Open-Meteo APIs.
+A responsive Kyndryl-inspired weather experience built with Python (Flask) and vanilla HTML/CSS/JavaScript, powered by Open-Meteo APIs. The interface reflects Kyndryl's “Ready for what is next” spirit with a clear, purposeful briefing for every journey.
 
 ## Features
 - Search current weather and 5-day forecast by city name.
 - Real-time weather data: temperature, feels-like, humidity, wind speed, sunrise, sunset.
-- Dynamic responsive UI with weather-themed styling.
+- Kyndryl-inspired responsive UI with weather-themed styling.
 - Secure backend API endpoint with validation and error handling.
 
 ## Setup & Running
